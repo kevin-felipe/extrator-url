@@ -9,7 +9,7 @@ url_parametros = url[indice_interrogacao+1:]
 print(url_parametros)
 
 
-parametro_busca = "moedaOrigem"
+parametro_busca = "moedaDestino"
 indice_parametro = url_parametros.find(parametro_busca)
 print(indice_parametro)
 
